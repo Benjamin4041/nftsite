@@ -1,0 +1,215 @@
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+    .tabCon{
+        position: relative;
+        /*  */
+      }
+      .tabCon_tab{
+        width: 100%;
+        min-height:26.31rem;
+      }
+      .handandTextCon{
+        /* position: absolute;
+        top:0; */
+        background-image: url(../../../public/assets/Get.svg);
+        background-size: cover;
+      }
+      .nftHand{
+        width:90%;
+        transform: translateY(-3.94rem);
+      }
+      .handandTextCon_h3{
+        width:9.815em;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1.50rem;
+        line-height: 125%;
+        text-align:start;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-left:1.25em;
+      }
+      .handandTextCon_p{
+        width: 17.19em;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+        margin-left:1.95em;
+        padding-top: 0.50rem;
+      }
+      .handandTextCon_btn{
+        width: 11.47em;
+        height:3.25em;
+        border: 2px solid #262840;
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        margin-top: 1.19em;
+        margin-bottom:1.25em; 
+      }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .tabCon{
+        position: relative;
+        /* left: 5.56em; */
+        height: fit-content;
+        /* scale:1.3; */
+        width:330px;
+      }
+      /* .tabCon_tab{
+        height: 863px; 
+      } */
+      /* .tabCon_tab{
+        width: 50%;
+        min-height:26.31rem;
+      } */
+      .handandTextCon{
+        /* position: absolute;
+        top:0; */
+        background-image: url(../../../public/assets/Get.svg);
+        background-size: contain;
+        border-radius:0px 0px 10px 10px;
+        background-repeat: no-repeat;
+      }
+      .nftHand{
+        width:80%;
+        transform: translateY(-3.94rem);
+      }
+      .handandTextCon_h3{
+        width:9.815em;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1.50rem;
+        line-height: 125%;
+        text-align:start;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-left:1.25em;
+      }
+      .handandTextCon_p{
+        width: 17.19em;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+        margin-left:1.95em;
+        padding-top: 0.50rem;
+      }
+      .handandTextCon_btn{
+        width: 11.47em;
+        height:3.25em;
+        border: 2px solid #262840;
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        margin-top: 1.19em;
+        margin-bottom:1.25em; 
+      }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+    .tabCon{
+        position: relative;
+        left: 1.5em;
+        transform: translateY(-15px);
+        height: 863px;
+        /* scale:1.3; */
+    }
+    /* .tabCon_tab{
+    width: 448px;
+    height: fit-content;
+    } */
+    .handandTextCon{
+    /* position: absolute;
+    top:0; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(../../../public/assets/Get.svg);
+    background-size: contain;
+    border-radius:0px 0px 10px 10px;
+    }
+    .nftHand{
+    transform: translateY(-4.94rem);
+    }
+    .handandTextCon_h3{
+    width:19.6rem;
+    height: 60px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    text-align:start;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    margin-left:1.25em;
+    }
+    .handandTextCon_p{
+    width: 17.19rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.9rem;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    text-align: start;
+    margin-left:1.95em;
+    padding-top: 0.50rem;
+    }
+    .handandTextCon_btn{
+    width: 22.9rem;
+    height:3.25em;
+    border: 2px solid #262840;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size:1rem;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    margin-top: 1.19em;
+    margin-bottom:1.25em; 
+    align-self: center;
+    cursor: pointer;
+    }
+}

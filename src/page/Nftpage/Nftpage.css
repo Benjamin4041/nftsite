@@ -1,0 +1,904 @@
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+    .nftpageMainCon{
+        background-color: #060714;
+    }
+    .nftpageMainCon__section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .nftpageMainCon__section1-imgCon{
+        position: relative;
+        margin-top:2.75rem;
+    }
+    .section1__imgCon-Nftimg{
+        height: 380px;
+        width: 311px;
+        border-radius: 20px;
+    }
+    .section1__imgCon-imglargTrigger{
+        display: grid;
+        place-items:center;
+        position: absolute;
+        width: 58px !important;
+        height: 58px !important;
+        top: 281px;
+        left: calc(50% - 57px/2 - 11px);;
+        /* transform: translate(50px); */
+        bottom: 42px;
+        background:rgba(217, 217, 217, 0.85);;
+        border-radius: 50%;
+    }
+    .section1__imgCon-mobileTime{
+        position: absolute;
+        width: 234px;
+        height: 74px;
+        left: 34px;
+        top: -30px;
+        /* background: #151622;
+        border-radius: 20px; */
+        background: linear-gradient(187.96deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 93.86%), #060714;
+        border: 1px solid #262840;
+        border-radius: 20px;
+    }
+    .imgCon__mobileTime-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+    .imgCon__mobileTime-p2{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .imgCon__mobileTime-p3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+    .section1__imgCon-likeShareCon{
+        position: absolute;
+        top:100px;
+        left: 290px;
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
+    .circle{
+        height:43.68000030517578px;
+        width: 43.68000030517578px;
+        left: 325px;
+        top: 200px;
+        border-radius: 50px;
+        background: #060714;
+        border: 1px solid #262840;
+        display: grid;
+        place-items: center;
+    }
+    .nftpageMainCon__section1-pcDetails{
+        display: none;
+    }
+    .section1__pcDetails-nameMainCon{
+        display: flex;
+        column-gap:24px;
+        margin-top: 28px;
+    }
+    .pcDetails__nameMainCon-Con{
+        display: flex;
+        
+    }
+    .Con__namesCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .Con__namesCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .nftMobilePrice{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .nameandethpriceCon{
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        column-gap:88px;
+        margin-bottom: 29px;
+    }
+    .nftNameMobile{
+        /* width:357.12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18.8px;
+        line-height: 125%;
+        letter-spacing: 0.144px;
+        color: #FFFFFF; */
+        width: 191.12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 125%;
+        letter-spacing: 0.144px;
+        color: #FFFFFF;
+    }
+    .nftDiscriptionMobile{
+        width: 280px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0.1375px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .bidPriceBtn{
+        margin-top:40px;
+        width: 272px;
+        height: 48px;
+        background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        align-self: center;
+    }
+    .section1__pcDetails-chartCon{
+        width: 351px;
+    }
+    .pcDetails__chartCon-chartImg{
+        width:100%;
+    }
+    .pcDetails__chartCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:9.64px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+        margin-top:2.5rem;
+        margin-bottom:1.3rem;
+        transform: translateX(15px);
+    }
+    .nftpageMainCon__section1-mobileDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .nftpageMainCon__section2{
+        padding-top:23px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nftpageMainCon__section2-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #7780A1;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1rem;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-btn{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        border: 2px solid #7780A1;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        width: fit-content;
+        padding:16px 24px;
+        background: transparent;
+        align-self: center;
+    }
+    .nftpageMainCon__section2-nftCon{
+        display: flex;
+        flex-wrap: wrap;
+        gap:37.69px;
+        justify-content: center;
+        margin-top:36.06px;
+        margin-bottom:70.41px;
+    }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .nftpageMainCon{
+        background-color: #060714;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .nftpageMainCon__section1{
+        
+    } */
+    .nftpageMainCon__section1-imgCon{
+        position: relative;
+        margin-top:30px;
+    }
+    .section1__imgCon-Nftimg{
+        height: 380px;
+        width: 311px;
+        border-radius: 20px;
+    }
+    .section1__imgCon-imglargTrigger{
+        display: grid;
+        place-items:center;
+        position: absolute;
+        width: 58px !important;
+        height: 58px !important;
+        top: 281px;
+        left: calc(50% - 57px/2 - 11px);;
+        /* transform: translate(50px); */
+        bottom: 42px;
+        background:rgba(217, 217, 217, 0.85);;
+        border-radius: 50%;
+    }
+    .section1__imgCon-mobileTime{
+        display: none;
+    }
+
+    .section1__imgCon-likeShareCon{
+        display: none;
+        /* position: absolute;
+        top:100px;
+        left: 344px;
+        display: flex;
+        flex-direction: column;
+        gap:12px; */
+    }
+    .circle{
+        height:43.68000030517578px;
+        width: 43.68000030517578px;
+        left: 325px;
+        top: 200px;
+        border-radius: 50px;
+        background: #060714;
+        border: 1px solid #262840;
+        display: grid;
+        place-items: center;
+    }
+    .nftpageMainCon__section1{
+        width:653.78px;
+        display: flex;
+        border: 1px solid #262840;
+        border-radius: 20px;
+        align-self: center;
+        column-gap:94px;
+        padding-right: 44.62px;
+        /* max-height: 87vh; */
+        position: relative;
+        padding-left:11.27px;
+    }
+    .nftpageMainCon__section1-mobileDetails{
+        display: none;
+    }
+    .nftpageMainCon__section1-pcDetails{
+        /* transform: translateY(72px); */
+        margin-top: 72px;
+        /* padding-right: 95px; */
+    }
+    /* .nameMainCon__Con-img{
+        
+    } */
+    .section1__pcDetails-h3{
+        width:232.96px;
+        height:46px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:18.79px;
+        line-height: 125%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;  
+        text-align: start;      
+    }
+    .section1__pcDetails-p{
+        margin-top:8px;
+        text-align: start;
+        width:226.38px;
+        height: 48px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:7.51px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+    .circle__heart,.circle__copy,.circle__share{
+        cursor: pointer;
+    }
+    .section1__pcDetails-nameMainCon{
+        display: flex;
+        column-gap:24px;
+        margin-top: 14px;
+        /* 57px */
+    }
+    .pcDetails__nameMainCon-Con{
+        display: flex;
+        column-gap:6px;
+    }
+    .Con__namesCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.58px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .Con__namesCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .section1__pcDetails-btnPriceTimeCon{
+        max-height: 110.37px;
+        width:232.49px;
+        border-radius: 20px;
+        background: linear-gradient(187.96deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 93.86%), #060714;
+        border: 1px solid #262840;
+        padding-top:32px;
+        padding-left: 40px;
+        margin:18.79px 0px;
+        padding-bottom:32px;
+      
+    }
+    .pcDetails__btnPriceTimeCon-innercon{
+        display: flex;
+        column-gap:26px;
+    }
+    .innercon__priceCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:12.58px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .innercon__priceCon-p2{
+        width:99px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:21.27px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    .btnPriceTimeCon__timeCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .btnPriceTimeCon__timeCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .btnPriceTimeCon__timeCon-p3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .pcDetails__btnPriceTimeCon-btn{
+        max-height: 52px;
+        width:194.91px;
+        left: 40px;
+        top: 151px;
+        border-radius: 12px;
+        padding: 16px 24px 16px 24px;
+        background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;  
+        cursor: pointer;  
+        margin-top:20px;
+    }
+    .section1__imgCon-likeShareConPC{
+        position: absolute;
+        right: -22px;
+        top: 62px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section1__pcDetails-chartCon{
+        width:232.49px;        
+    }
+    .pcDetails__chartCon-chartImg{
+        width:100%;
+    }
+    .pcDetails__chartCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.57539px;
+        line-height: 150%;
+        letter-spacing: 0.0939341px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .nftpageMainCon__section2{
+        padding-top:23px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nftpageMainCon__section2-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #7780A1;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1rem;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-btn{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        border: 2px solid #7780A1;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        width: fit-content;
+        padding:16px 24px;
+        background: transparent;
+        align-self: center;
+    }
+    .nftpageMainCon__section2-nftCon{
+        display: flex;
+        flex-wrap: wrap;
+        gap:37.69px;
+        justify-content: center;
+        margin-top:36.06px;
+        margin-bottom:70.41px;
+    }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+    .nftpageMainCon{
+        background-color: #060714;
+        display: flex;
+        flex-direction: column;
+    }
+    .nftpageMainCon__section1-imgCon{
+        position: relative;
+        margin:24px;
+        margin-bottom: 3px;
+    }
+    .section1__imgCon-Nftimg{
+        max-height:785px;
+        /* width: 444px; */
+        /* width: 684px;
+        height: 885px; */
+        border-radius: 20px;
+    }
+    .section1__imgCon-imglargTrigger{
+        display: grid;
+        place-items:center;
+        position: absolute;
+        width: 58px !important;
+        height: 58px !important;
+        top: 673px;
+        left: calc(50% - 57px/2 - 11px);;
+        /* transform: translate(50px); */
+        /* bottom: 42px; */
+        background:rgba(217, 217, 217, 0.85);;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .section1__imgCon-mobileTime{
+        display: none;
+    }
+
+    .section1__imgCon-likeShareCon{
+        display: none;
+    }
+    .section1__imgCon-likeShareConPC{
+        position: absolute;
+        right:18px;
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+
+    }
+    .circle{
+        height:43.68000030517578px;
+        width: 43.68000030517578px;
+        left: 325px;
+        top: 200px;
+        border-radius: 50px;
+        background: #060714;
+        border: 1px solid #262840;
+        display: grid;
+        place-items: center;
+    }
+    /* .circle:hover{
+
+    } */
+    .nftpageMainCon__section1{
+        width: fit-content;
+        display: flex;
+        border: 1px solid #262840;
+        border-radius: 20px;
+        align-self: center;
+        column-gap:94px;
+        /* max-height: 87vh; */
+    }
+    .nftpageMainCon__section1-mobileDetails{
+        display: none;
+    }
+    .nftpageMainCon__section1-pcDetails{
+        /* transform: translateY(72px); */
+        margin-top: 72px;
+    }
+    .section1__pcDetails-h3{
+        width: 496px;
+        height: 100px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;  
+        text-align: start;      
+    }
+    .section1__pcDetails-p{
+        margin-top:8px;
+        text-align: start;
+        width: 422px;
+        height: 48px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+    .nftpageMainCon__section1-pcDetails{
+        /* display: flex; */
+        padding-right: 95px;
+    }
+    .circle__heart,.circle__copy,.circle__share{
+        cursor: pointer;
+    }
+    .section1__pcDetails-nameMainCon{
+        display: flex;
+        column-gap:24px;
+        margin-top: 28px;
+        /* 57px */
+    }
+    .pcDetails__nameMainCon-Con{
+        display: flex;
+        
+    }
+    .Con__namesCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .Con__namesCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .section1__pcDetails-btnPriceTimeCon{
+        max-height: 235px;
+        width: 495px;
+        border-radius: 20px;
+        background: linear-gradient(187.96deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 93.86%), #060714;
+        border: 1px solid #262840;
+        padding-top:32px;
+        /* padding-left: 40px; */
+        margin-top:40px;
+        padding-bottom:32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pcDetails__btnPriceTimeCon-innercon{
+        display: flex;
+        column-gap:56px;
+    }
+    .innercon__priceCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .innercon__priceCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:24px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .btnPriceTimeCon__timeCon-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .btnPriceTimeCon__timeCon-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .btnPriceTimeCon__timeCon-p3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+    }
+    .pcDetails__btnPriceTimeCon-btn{
+        max-height: 52px;
+        width: 415px;
+        left: 40px;
+        top: 151px;
+        border-radius: 12px;
+        padding: 16px 24px 16px 24px;
+        background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;  
+        cursor: pointer;  
+        margin-top:32px;
+    }
+    .pcDetails__chartCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        text-align: start;
+        margin-top:2.5rem;
+        margin-bottom:1.3rem;
+        transform: translateX(15px);
+    }
+    .section1__pcDetails-chartCon{
+        width: fit-content;
+    }
+    .pcDetails__chartCon-chartImg{
+        height: 185px;
+        width: 495px;
+    }
+
+    .nftpageMainCon__section2{
+        padding-top:23px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nftpageMainCon__section2-p1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.94rem;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #7780A1;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-p2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:2rem;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        justify-content: center;
+    }
+    .nftpageMainCon__section2-btn{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        border: 2px solid #7780A1;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        width: fit-content;
+        padding:16px 24px;
+        background: transparent;
+        align-self: center;
+        cursor: pointer;
+    }
+    .nftpageMainCon__section2-nftCon{
+        display: flex;
+        column-gap:24px;
+        justify-content: center;
+        margin-top:36.06px;
+        margin-bottom:70.41px;
+    }
+}

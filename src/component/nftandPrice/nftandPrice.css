@@ -1,0 +1,68 @@
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+    .nftandprice_mainCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nftandprice_mainCon-img{
+        width:80%;
+    }
+    .nftandprice_mainCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .nftandprice_mainCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .nftandprice_mainCon-img{
+        width: 50%;
+    } */
+    .nftandprice_mainCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+    .nftandprice_mainCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+    .nftandprice_mainCon-img{
+        width: 75%;
+    }
+    .nftandprice_mainCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+    }
+}

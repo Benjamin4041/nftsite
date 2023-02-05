@@ -1,0 +1,470 @@
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+     /* .innerCon2_hotsalesCon{
+        background: #060714;
+        border: 1px solid #262840;
+        border-radius: 20px;
+        padding-left:20px;
+        padding-top:22.5px;
+        padding-bottom:20px;
+        overflow: hidden;
+    }
+    .innerCon2_hotsalesCon-p{
+        width:12.63rem;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1.5rem;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align:start;
+        margin-bottom:28px;
+    } */
+    .hotsalesCon_innerCon-hotNft{
+        /* width:106px; */
+        /* height: 504px;
+       width: 386px;*/
+        /* scale:; */
+        width: 143.68px;
+        /* height: 419px; */
+        /* transform: scale(0.6); */
+    }
+    .innerCon_hotNft1-imgCon{
+        /* height:177.5px;
+        width:106px; */
+        width:100%;
+        border-radius: 20px;
+    }
+    .hotNft1_imgCon-img{
+        width: 100%;
+        height:100%;
+        border-radius: 20px;
+    }
+    .innerCon_hotNft1-NftName{
+        text-align: start;
+        width:148.31px !important;
+        height: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size:11.19px !important;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .innerCon2{
+        display: flex;
+        flex-direction: column;
+        row-gap:5.56em;
+        padding-top: 2.69em;
+    }
+    .innerCon2_hotsalesCon-innerCon{
+        position: relative;
+        display: flex;
+        column-gap:24px;
+    }
+    .innerCon_hotNft1-timeandPriceCon{
+        display: flex;
+        justify-content: space-between;
+        /* column-gap: 45.42px; */
+    }
+    .hotNft1_timeandPriceCon-timeCon{
+        display:flex;
+        column-gap:4px;
+        align-items: center;
+    }
+    .timeandPriceCon_timeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9.79px;
+        line-height: 150%;    
+        letter-spacing: 0.2px;
+        color: #FFFFFF;        
+    }
+    .timeandPriceCon_timeCon-timeIcon{
+        height: 13.99168586730957px;
+        width: 13.99168586730957px;
+
+
+    }
+    .hotNft1-timeandPriceCon-price{
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.2px;
+        padding:4px 7px !important;
+        color: #514CFF;
+    }
+    .innerCon_hotNft1-hr{
+        /* height:1px; */
+        width:100%;
+        background-color: #262840;
+        margin-top: 19px;
+        margin-bottom: 12px;
+    }
+    .innerCon_hotNft1-biddingLikeCon{
+        display: flex;
+        column-gap: 12px !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hotNft1_biddingLikeCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:9.79px !important;
+        line-height:14.69px !important;
+        letter-spacing: 0.139917px !important;
+        color: #7780A1;
+        width:fit-content;
+    }
+    /* .hotNft1_biddingLikeCon-heartIcon{
+
+    } */
+    .arrowCon{
+        background-color: rgb(6, 7, 20,0.5);
+        position: absolute;
+        top: 0;
+        height: 504px;
+        width: 212px;
+        /* 
+        top: 181px; */
+        /* opacity: 50%; */
+        left: 235px;
+        /* display: flex;
+        align-items: center; */
+        padding-left:26px;
+    }
+    .arrowCon_circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        background:rgba(38, 40, 64, 0.8);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transform: translateY(167px);
+      }
+      .innerCon2_hotsalesCon-btn{
+        width: 184px;
+        height: 52px;
+        /* left: calc(50% - 368px/2);
+        bottom: 40px; */
+        /* On White/Dark 90 */
+        border: 2px solid #262840;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        /* display: flex;
+        align-items: center; */
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        background: transparent;
+      }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .hotsalesCon_innerCon-hotNft{
+        /* width:106px; */
+        /* height: 504px;
+       width: 386px;*/
+        /* scale:; */
+        width: 212px;
+        /* height: 419px; */
+        /* transform: scale(0.6); */
+    }
+    .innerCon_hotNft1-imgCon{
+        /* height:177.5px;
+        width:106px; */
+        width:100%;
+        border-radius: 20px;
+    }
+    .hotNft1_imgCon-img{
+        width: 100%;
+        height:100%;
+        border-radius: 20px;
+    }
+    .innerCon_hotNft1-NftName{
+        text-align: start;
+        width: 212px;
+        height: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .innerCon2{
+        display: flex;
+        flex-direction: column;
+        row-gap:5.56em;
+        padding-top: 2.69em;
+    }
+    .innerCon2_hotsalesCon-innerCon{
+        position: relative;
+        display: flex;
+        column-gap:24px;
+    }
+    .innerCon_hotNft1-timeandPriceCon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hotNft1_timeandPriceCon-timeCon{
+        display:flex;
+        column-gap:4px;
+        align-items: center;
+    }
+    .timeandPriceCon_timeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;    
+        letter-spacing: 0.2px;
+        color: #FFFFFF;        
+    }
+    .hotNft1-timeandPriceCon-price{
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.2px;
+        padding:6px 10px;
+        color: #514CFF;
+    }
+    .innerCon_hotNft1-hr{
+        /* height:1px; */
+        width:100%;
+        background-color: #262840;
+        margin-top: 19px;
+        margin-bottom: 12px;
+    }
+    .innerCon_hotNft1-biddingLikeCon{
+        display: flex;
+        column-gap:38px;
+    }
+    .hotNft1_biddingLikeCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+
+    }
+    /* .hotNft1_biddingLikeCon-heartIcon{
+
+    } */
+    .arrowCon{
+        background-color: rgb(6, 7, 20,0.5);
+        position: absolute;
+        top: 0;
+        height: 504px;
+        width: 212px;
+        /* 
+        top: 181px; */
+        /* opacity: 50%; */
+        left: 235px;
+        /* display: flex;
+        align-items: center; */
+        padding-left:26px;
+    }
+    .arrowCon_circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        background:rgba(38, 40, 64, 0.8);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transform: translateY(167px);
+      }
+      .innerCon2_hotsalesCon-btn{
+        width: 184px;
+        height: 52px;
+        /* left: calc(50% - 368px/2);
+        bottom: 40px; */
+        /* On White/Dark 90 */
+        border: 2px solid #262840;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        /* display: flex;
+        align-items: center; */
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        background: transparent;
+      }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+    .hotsalesCon_innerCon-hotNft{
+        width: 212px;
+    }
+
+
+
+
+
+
+    /*   
+    .innerCon_hotNft1-imgCon{
+        width:100%;
+        border-radius: 20px;
+    }
+    .hotNft1_imgCon-img{
+        width: 100%;
+        height:100%;
+        border-radius: 20px;
+    }
+    .innerCon_hotNft1-NftName{
+        text-align: start;
+        width: 212px;
+        height: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .innerCon2{
+        display: flex;
+        flex-direction: column;
+        row-gap:5.56em;
+        padding-top: 2.69em;
+    }
+    .innerCon2_hotsalesCon-innerCon{
+        position: relative;
+        display: flex;
+        column-gap:24px;
+    }
+    .innerCon_hotNft1-timeandPriceCon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hotNft1_timeandPriceCon-timeCon{
+        display:flex;
+        column-gap:4px;
+        align-items: center;
+    }
+    .timeandPriceCon_timeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;    
+        letter-spacing: 0.2px;
+        color: #FFFFFF;        
+    }
+    .hotNft1-timeandPriceCon-price{
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.2px;
+        padding:6px 10px;
+        color: #514CFF;
+    }
+    .innerCon_hotNft1-hr{
+        
+        width:100%;
+        background-color: #262840;
+        margin-top: 19px;
+        margin-bottom: 12px;
+    }
+    .innerCon_hotNft1-biddingLikeCon{
+        display: flex;
+        column-gap:38px;
+    }
+    .hotNft1_biddingLikeCon-p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+
+    }
+    .arrowCon{
+        background-color: rgb(6, 7, 20,0.5);
+        position: absolute;
+        top: 0;
+        height: 504px;
+        width: 212px;
+
+        left: 235px;
+
+        padding-left:26px;
+    }
+    .arrowCon_circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        background:rgba(38, 40, 64, 0.8);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transform: translateY(167px);
+      }
+      .innerCon2_hotsalesCon-btn{
+        width: 184px;
+        height: 52px;
+    
+        border: 2px solid #262840;
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        background: transparent;
+      } */
+}

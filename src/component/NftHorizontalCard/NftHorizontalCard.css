@@ -1,0 +1,237 @@
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+    .NftHorizontalCard_mainCon{
+        display: flex;
+        column-gap:1rem;
+        /* outline:1px solid red; */
+       align-items: center;
+       justify-content: center;
+    }
+    .mainCon_img{
+   
+        width:5.8rem;
+        border-radius: 10px;
+    }
+    .mainCon_NameandPriceCon-nftName{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon,.mainCon_NameandPriceCon-likeBiddingCon,.NameandPriceCon_priceandtimeCon-timeCon{
+        display: flex;
+    }
+    .mainCon_NameandPriceCon-likeBiddingCon{
+        margin-top:10px;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        margin-top:0.7rem;
+    }
+    .NameandPriceCon_priceandtimeCon-timeCon{
+        column-gap:4px;
+        align-items: center;
+    }
+    .NameandPriceCon_priceandtimeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:0.9rem;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .NameandPriceCon_priceandtimeCon-price{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.8rem;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        color: #514CFF;
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       padding:6px 10px 6px 10px ; 
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        justify-content:start;
+        column-gap: 75px;
+    }
+    .NameandPriceCon_likeBiddingCon-bid{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        margin-right: 28px;
+    }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .NftHorizontalCard_mainCon{
+        display: flex;
+        column-gap:1rem;
+        /* outline:1px solid red; */
+       align-items: center;
+       justify-content: center;
+    }
+    .mainCon_img{
+
+        width:5.8rem;
+        border-radius: 10px;
+    }
+    .mainCon_NameandPriceCon-nftName{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon,.mainCon_NameandPriceCon-likeBiddingCon,.NameandPriceCon_priceandtimeCon-timeCon{
+        display: flex;
+    }
+    .mainCon_NameandPriceCon-likeBiddingCon{
+        margin-top:10px;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        margin-top:0.7rem;
+    }
+    .NameandPriceCon_priceandtimeCon-timeCon{
+        column-gap:4px;
+        align-items: center;
+    }
+    .NameandPriceCon_priceandtimeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:0.9rem;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .NameandPriceCon_priceandtimeCon-price{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.8rem;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        color: #514CFF;
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       padding:6px 5px 6px 5px ; 
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        justify-content:start;
+        column-gap: 75px;
+    }
+    .NameandPriceCon_likeBiddingCon-bid{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        margin-right: 28px;
+    }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+    .NftHorizontalCard_mainCon{
+        display: flex;
+        column-gap:1rem;
+        /* outline:1px solid red; */
+       align-items: center;
+       justify-content: center;
+    }
+    .mainCon_img{
+   
+        width:5.8rem;
+        border-radius: 10px;
+    }
+    .mainCon_NameandPriceCon-nftName{
+        width: 232px;
+        height: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: start;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon,.mainCon_NameandPriceCon-likeBiddingCon,.NameandPriceCon_priceandtimeCon-timeCon{
+        display: flex;
+    }
+    .mainCon_NameandPriceCon-likeBiddingCon{
+        margin-top:10px;
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        margin-top:0.7rem;
+    }
+    .NameandPriceCon_priceandtimeCon-timeCon{
+        column-gap:4px;
+        align-items: center;
+    }
+    .NameandPriceCon_priceandtimeCon-time{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:0.9rem;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .NameandPriceCon_priceandtimeCon-price{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.8rem;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        color: #514CFF;
+        background: rgba(81, 76, 255, 0.15);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       padding:6px 10px 6px 10px ; 
+    }
+    .mainCon_NameandPriceCon-priceandtimeCon{
+        /* justify-content:start; */
+        column-gap:89px;
+    }
+    .NameandPriceCon_likeBiddingCon-bid{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+        color: #7780A1;
+        margin-right: 28px;
+    }
+}
