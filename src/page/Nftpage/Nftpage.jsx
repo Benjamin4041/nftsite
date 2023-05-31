@@ -5,7 +5,7 @@ import Footer from '../../component/footer/footer'
 import SmallNftCard from '../../component/SmallNftCard/SmallNftCard'
 import { useState } from 'react'
 export default function Nftpage() {
-  let [image,setImage]=useState(localStorage.getItem('nftpath'))
+  let [image]=useState(localStorage.getItem('nftpath'))
   return (
     <div className='nftpageMainCon'>
         <Navbar/>

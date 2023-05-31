@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 import Footer from '../../component/footer/footer'
 import Navbar from '../../component/navbar/navbar'
 import NftandPrice from '../../component/nftandPrice/nftandPrice'
